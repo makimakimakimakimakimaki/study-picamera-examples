@@ -39,7 +39,7 @@ class FaceDetector(object):
         # 取得した座標情報を元に、cv2.rectangleを使ってframe上に
         # 顔の位置を描画する
         for (x,y,w,h) in faces:
-            cv2.rectangle(frame,(x,y),(x+w,y+h),(0,054,20),0)
+            cv2.rectangle(frame,(x,y),(x+w,y+h),(100,54,99),0)
 
         # frameを戻り値として返す
         return frame
